@@ -1,0 +1,34 @@
+name: mi_card
+description: A new Flutter application.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.1
+  font_awesome_flutter: ^10.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  uses-material-design: true
+
+  assets:
+    - images/
+
+  fonts:
+    - family: VisbyCF
+      fonts:
+        - asset: fonts/visby-cf/VisbyCF-Bold.otf
+        - asset: fonts/visby-cf/VisbyCF-DemiBold.otf
+        - asset: fonts/visby-cf/VisbyCF-ExtraBold.otf
+        - asset: fonts/visby-cf/VisbyCF-Heavy.otf
+        - asset: fonts/visby-cf/VisbyCF-Light.otf
+        - asset: fonts/visby-cf/VisbyCF-Medium.otf
+        - asset: fonts/visby-cf/VisbyCF-Regular.otf
+        - asset: fonts/visby-cf/VisbyCF-Thin.otf
+
